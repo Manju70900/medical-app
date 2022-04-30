@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidemenu {
+  width: 25%;
+  height: 120vh;
+  background-color: rgba(253, 10, 10, 0);
+  padding: 40px;
+  text-align: justify;
+  font-size: large;
+  box-shadow: 0 0 3px 1px gray;
+}
+
+.sidemenu .toplogo {
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+}
+
+.sidemenu .toplogo img {
+  height: 30px;
+  width: 150px;
+}
+
+.paragraph {
+  line-height: 1.6rem;
+  font-size: large;
+  color: #333;
+}
+
+.afterpara {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 82%;
+  margin-top: 20px;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+h5 {
+  color: rgb(110, 110, 110);
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68%;
+  margin-bottom: 15px;
+}
+
+.envolope {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 89%;
+  margin-bottom: 50px;
+}
+
+.endsec {
+  margin: 50px 0;
+}
+
+img[alt="sidemenu"] {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.sidemidsecdiv {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px 0;
+}

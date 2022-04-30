@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+
+
+.doctorsdiv1
+{
+    background-image: url(https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/team-parallax-1.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 50px 0;
+
+    color: #fff;
+    
+
+    
+}
+
+.section2
+{
+    width: 54%;
+    height: auto;
+    margin: 50px auto;
+    text-align: justify;
+    line-height: 1.8rem;
+   
+    
+}
+
+img[alt=specialist]
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+
+.section3
+{
+    text-align: center;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    
+}
+
+.div-in-section3
+{
+    height: auto;
+    width:90% ;
+    line-height: 1.5;
+    
+    padding: 10px;
+    margin: 15px;
+}
+
+
+
+
+span:hover{
+    transition: color 0.3s ease-out;
+    color: aqua;
+}
+
+.section4
+{
+    background-color:#6e6e6e2d;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+.section4 article{
+    
+    height: 30vh;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 3rem;
+    text-align: center;
+    
+}
+
+
+.divsection4 input
+{
+padding: 15px;
+width: 45%;
+border: none;
+margin: 10px;
+border-radius: 5px;
+
+}
+
+.divsection4 button
+{
+padding: 15px;
+width: 25%;
+border: none;
+margin: 10px;
+border-radius: 5px;background-color: #43d5cb;
+color: #fff;
+font-weight: bold;
+
+}
